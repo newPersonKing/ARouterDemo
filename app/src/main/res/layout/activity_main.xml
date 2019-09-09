@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是app_model"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/btn_go_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转第一个model"/>
+
+    <Button
+        android:id="@+id/btn_go_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转第二个model"/>
+
+    <Button
+        android:id="@+id/btn_test_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试service"/>
+
+
+</LinearLayout>
